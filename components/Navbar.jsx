@@ -19,13 +19,14 @@ export default function Navbar() {
   return (
     <div className="fixed w-full h-32 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
+        {/* <Image
           src="/../public/assets/photo1.png"
           alt="/"
           width="90"
           height="90"
           className="rounded-full mb-6"
-        />
+        /> */}
+        <h2>Loguito</h2>
 
         <div>
           <ul className="hidden md:flex">
