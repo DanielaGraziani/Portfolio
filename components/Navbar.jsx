@@ -32,19 +32,9 @@ export default function Navbar() {
 
   return (
     <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-32 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href='/'>
+      <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
         
-        <h2>Loguito</h2>
-        </Link>
-        {/* <Image
-          src="/../public/assets/photo1.png"
-          alt="/"
-          width="90"
-          height="90"
-          className="rounded-full mb-6"
-        /> */}
-
+     
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -72,30 +62,39 @@ export default function Navbar() {
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
+
+        </div>
+
+          <div className="mt-2">
+       <button>Download CV</button>
+       
         </div>
       </div>
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "md:hidden fixed right-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-700"
+              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              : "fixed right-[-100%]  top-0 p-10 ease-in duration-700"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
+
+             <div>
+              </div> 
               <Image
-                src="/../public/assets/photo1.png"
+                src="/../public/assets/victory-sign.png"
                 alt="/"
-                width="90"
-                height="90"
-                className="rounded-full mb-6"
+                width="150"
+                height="150"
               />
+
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer "
@@ -104,12 +103,12 @@ export default function Navbar() {
               </div>
             </div>
             <div className="mt-8 border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
+              <p className="w-[85%] md:w-[90%] py-4 text-center">
                 Let's build something incredible together
               </p>
             </div>
           </div>
-          <div className="py-4 flex flex-col">
+          <div className="py-4 flex flex-col items-center">
             <ul className="uppercase">
               <Link href="/">
                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Home</li>
@@ -127,7 +126,7 @@ export default function Navbar() {
                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-12">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's connect
               </p>
