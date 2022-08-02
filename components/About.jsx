@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import AboutLottie from "./Lottie/AboutLottie";
 
 export default function About() {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="mt-32 w-full md:h-screen md:mt-0 p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 text-justify">
           <h2 className="uppercase tracking-widest">About Me</h2>
@@ -26,15 +27,7 @@ export default function About() {
             excepturi? Magnam nemo at error.
           </p>
         </div>
-        <div className="rounded-full h-auto m-auto shadow-xl shadow-gray-400 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image
-            src="/../public/assets/photo1.png"
-            alt="/"
-            width="390"
-            height="390"
-            className="rounded-full "
-          />
-        </div>
+          <AboutLottie/>
       </div>
     </div>
   );
