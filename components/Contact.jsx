@@ -3,6 +3,7 @@ import Link from "next/link";
 import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import ContactLottie from "./Lottie/ContactLottie";
 
 export default function Contact() {
   return (
@@ -13,15 +14,17 @@ export default function Contact() {
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
-              <div>{/* animation <img src="" alt="" /> */}</div>
-              <div>
-                <h2 className="py-2">Daniela </h2>
+              
+             
+              <div className="text-center">
+                <h2 className="py-2 ">Daniela </h2>
                 <p>Fullstack Developer</p>
                 <p>Contact me and let's talk.</p>
               </div>
 
+                 <ContactLottie/>
               <div>
-                <p className="uppercase pt-8">Connect with me</p>
+                <p className="uppercase pt-2">Connect with me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                     <FaLinkedinIn />
@@ -94,7 +97,7 @@ export default function Contact() {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300 ">
+            <div className="mt-8 rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer animate-bounce">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
             </div>
           </Link>
