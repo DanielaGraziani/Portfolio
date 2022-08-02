@@ -34,6 +34,7 @@ html{
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
+    /* @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white; */
+    @apply px-6 py-2 font-semibold text-white bg-blue-500 border-t-4 border-blue-800 rounded-xl shadow-lg shadow-blue-500/50 hover:border-blue-600
   }
 }
