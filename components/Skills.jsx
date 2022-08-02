@@ -9,12 +9,12 @@ export default function Skills() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
+              <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/html.png"
-                  width="64px"
-                  height="64xpx"
+                  src="/../public/assets/skills/html2.png"
+                  width="94px"
+                  height="94xpx"
                   alt="/"
                 />
               </div>
@@ -25,12 +25,12 @@ export default function Skills() {
           </div>
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css.png"
-                  width="64px"
-                  height="64xpx"
+                  src="/../public/assets/skills/css3.png"
+                  width="94px"
+                  height="94xpx"
                   alt="/"
                 />
               </div>
@@ -41,12 +41,12 @@ export default function Skills() {
           </div>
 
           <div className="p-6  rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript.png"
-                  width="64px"
-                  height="64xpx"
+                  src="/../public/assets/skills/java-script.png"
+                  width="94px"
+                  height="94xpx"
                   alt="/"
                 />
               </div>
@@ -57,12 +57,12 @@ export default function Skills() {
           </div>
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
                   src="/../public/assets/skills/react.png"
-                  width="64px"
-                  height="64xpx"
+                  width="94px"
+                  height="94xpx"
                   alt="/"
                 />
               </div>
@@ -73,12 +73,12 @@ export default function Skills() {
           </div>
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
                   src="/../public/assets/skills/tailwind.png"
-                  width="64px"
-                  height="64xpx"
+                  width="74px"
+                  height="74xpx"
                   alt="/"
                 />
               </div>
@@ -89,7 +89,7 @@ export default function Skills() {
           </div>
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
                   src="/../public/assets/skills/node.png"
@@ -105,7 +105,7 @@ export default function Skills() {
           </div>
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
                   src="/../public/assets/skills/sequelize1.png"
@@ -121,10 +121,10 @@ export default function Skills() {
           </div>
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/postgreSQL.png"
+                  src="/../public/assets/skills/postgresql1.png"
                   width="64px"
                   height="64xpx"
                   alt="/"
@@ -138,12 +138,12 @@ export default function Skills() {
 
 
           <div className="p-6 rounded-xl hover:scale-150 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github1.png"
-                  width="64px"
-                  height="64xpx"
+                  src="/../public/assets/skills/github.png"
+                  width="94px"
+                  height="94xpx"
                   alt="/"
                 />
               </div>
