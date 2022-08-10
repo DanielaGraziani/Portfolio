@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <div id="home" className="w-full h-screen text-center ">
       <div className="max-w-[1040px] w-full h-full mx-auto p-2 flex justify-center items-center flex-wrap">
-        <div className="mt-18 md:mt-20 md:grid md:grid-cols-2">
+        <div className="mt-16 md:mt-20 md:grid md:grid-cols-2">
           <div className="mt-24 ">
             <h1 className="py-4 text-gray-700 font-serif">
               <span className="text-[#5651e5]">D</span>aniela <span className="text-[#5651e5]">D</span>íaz <span className="text-[#5651e5]">G</span>raziani
