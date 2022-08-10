@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { useTheme } from 'next-themes'
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -8,9 +8,42 @@ import {
   AiOutlineMail,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
+
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import {BsFillSunFill,BsFillMoonFill } from 'react-icons/bs'
+
 
 export default function Navbar() {
+  const {systemTheme, theme, setTheme}= useTheme()
+  const [mounted, setMounted]= useState(false)
+
+  
+
+  useEffect(()=>{
+    setMounted(true)
+  },[])
+
+  const renderThemeChanger = () =>{
+
+    if (!mounted) return null 
+    const currentTheme = theme === 'system' ? systemTheme : theme
+    
+    if(currentTheme === 'dark'){
+      return(
+        <BsFillSunFill className="w-7 h-7" role="button" onClick={()=> setTheme('light')}/>
+      )
+    }
+    else{
+      return(
+        <BsFillMoonFill className="w-7 h-7" role="button" onClick={()=> setTheme('dark')}/>
+      )
+    }
+  
+  }
+
+
+
+
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false)
   const [navBg, setNavBg] = useState('#ecf0f3')
@@ -32,9 +65,9 @@ export default function Navbar() {
 
   return (
     <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-32 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
-      <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gray-900 dark:text-gray-100">
         
-     
+        {/* Navbar items */}
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -59,18 +92,26 @@ export default function Navbar() {
           </ul>
 
           {/* SideMenu mobile */}
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden dark:bg-gray-900 dark:text-gray-100">
             <AiOutlineMenu size={25} />
           </div>
-
         </div>
 
-          <div className="mt-2">
-       <button>Download CV</button>
-       
+        <div className="flex justify-between">
+
+       <div className="mt-5 mr-6">
+       {renderThemeChanger()}
+       </div>
+        <div className="mt-2">
+       <button className="mr-4">Download CV</button>
         </div>
+        </div>
+        
+        
+
       </div>
 
+       
       <div
         className={
           nav ? "md:hidden fixed right-0 top-0 w-full h-screen bg-black/70" : ""
