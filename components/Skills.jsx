@@ -1,5 +1,15 @@
 import Image from "next/image";
 import React from "react";
+import html from '../public/assets/skills/html2.png'
+import css from '../public/assets/skills/css3.png'
+import javascript from '../public/assets/skills/java-script.png'
+import react from '../public/assets/skills/react.png'
+import tailwind from '../public/assets/skills/tailwind.png'
+import node from '../public/assets/skills/node.png'
+import post from '../public/assets/skills/postgresql1.png'
+import sequelize from '../public/assets/skills/sequelize1.png'
+import github from '../public/assets/skills/github.png'
+
 
 export default function Skills() {
   return (
@@ -12,7 +22,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/html2.png"
+                  src={html}
                   width="94px"
                   height="94xpx"
                   alt="/"
@@ -28,7 +38,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css3.png"
+                  src={css}
                   width="94px"
                   height="94xpx"
                   alt="/"
@@ -44,7 +54,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/java-script.png"
+                  src={javascript}
                   width="94px"
                   height="94xpx"
                   alt="/"
@@ -60,7 +70,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react.png"
+                  src={react}
                   width="94px"
                   height="94xpx"
                   alt="/"
@@ -76,7 +86,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
+                  src={tailwind}
                   width="74px"
                   height="74xpx"
                   alt="/"
@@ -92,7 +102,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/node.png"
+                  src={node}
                   width="64px"
                   height="64xpx"
                   alt="/"
@@ -108,7 +118,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/sequelize1.png"
+                  src={sequelize}
                   width="64px"
                   height="64xpx"
                   alt="/"
@@ -124,7 +134,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/postgresql1.png"
+                  src={post}
                   width="64px"
                   height="64xpx"
                   alt="/"
@@ -141,7 +151,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center hover:animate-bounce">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github.png"
+                  src={github}
                   width="94px"
                   height="94xpx"
                   alt="/"
