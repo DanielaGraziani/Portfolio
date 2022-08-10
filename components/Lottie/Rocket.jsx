@@ -12,7 +12,7 @@ export default function Rocket() {
         // class='mx-auto transform hover:scale-105 duration-700 ease-in-out hover:rotate-6'
         // class='relative'
         // style={{z:[100]}}
-        style={{width:100, height:100}}
+        style={{width:150, height:150}}
         />
 
   )
