@@ -4,7 +4,7 @@ import Web from "./Lottie/Web";
 export default function Main() {
   return (
     <div id="home" className="w-full h-screen text-center ">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center flex-wrap">
+      <div className="max-w-[1040px] w-full h-full mx-auto p-2 flex justify-center items-center flex-wrap">
         <div className="mt-20 md:grid md:grid-cols-2">
           <div className="mt-24 ">
             <h1 className="py-4 text-gray-700">
