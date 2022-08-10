@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <div id='contact' className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <h2 className="uppercase tracking-widest mb-12">Contact</h2>
+        <h2 className="uppercase tracking-widest mb-12">Contacto</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -19,12 +19,12 @@ export default function Contact() {
               <div className="text-center">
                 <h2 className="py-2 ">Daniela </h2>
                 <p>Fullstack Developer</p>
-                <p>Contact me and let's talk.</p>
+                <p>Contáctame y hablemos.</p>
               </div>
 
                  <ContactLottie/>
               <div>
-                <p className="uppercase pt-2">Connect with me</p>
+                <p className="uppercase pt-2"></p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                     <FaLinkedinIn />
@@ -51,7 +51,7 @@ export default function Contact() {
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label className="uppercase text-sm py-2">Nombre</label>
                     <input
                       className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
@@ -59,7 +59,7 @@ export default function Contact() {
                   </div>
 
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Number</label>
+                    <label className="uppercase text-sm py-2">Teléfono</label>
                     <input
                       className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
@@ -75,21 +75,21 @@ export default function Contact() {
                 </div>
 
                 <div className="flex flex-col">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label className="uppercase text-sm py-2">Asunto</label>
                   <input
                     className="border-2 rounded-lg p-3 border-gray-300"
                     type="text"
                   />
                 </div>
                 <div className="flex flex-col">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label className="uppercase text-sm py-2">Mensaje</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
+                  Enviar
                 </button>
               </form>
             </div>

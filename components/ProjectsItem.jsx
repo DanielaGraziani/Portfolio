@@ -22,13 +22,13 @@ export default function ProjectsItem({
         <p className="pb-4 text-white text-center">React JS</p>
 
        <div className="flex space-x-20">
-       <a href={projectUrl} target="_blank">
+       <a href={projectUrl} target="_blank" rel="noreferrer">
           {/* <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             Demo
           </p> */}
           <button className="px-6 py-2 mt-4 mr-8">Demo</button>
         </a>
-        <a href={projectRepo} target="_blank">
+        <a href={projectRepo} target="_blank" rel="noreferrer">
         <button className="px-8 py-2 mt-4 mr-8">Code</button>
         </a>
        </div>

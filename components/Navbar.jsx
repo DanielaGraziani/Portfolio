@@ -74,19 +74,19 @@ export default function Navbar() {
               <li className="ml-10 text-lg uppercase hover:bg-[#5651e5] hover:text-white rounded-md p-2">Home</li>
             </Link>{" "}
             <Link href="/#about">
-              <li className="ml-10 text-lg uppercase hover:bg-[#5651e5] hover:text-white rounded-md p-2">About</li>
+              <li className="ml-10 text-lg uppercase hover:bg-[#5651e5] hover:text-white rounded-md p-2">Sobre mi</li>
             </Link>{" "}
             <Link href="/#skills">
               <li className="ml-10 text-lg uppercase hover:bg-[#5651e5] hover:text-white rounded-md p-2">Skills</li>
             </Link>{" "}
             <Link href="/#projects">
               <li className="ml-10 text-lg uppercase hover:bg-[#5651e5] hover:text-white rounded-md p-2">
-                Projects
+                Proyectos
               </li>
             </Link>{" "}
             <Link href="/#contact">
               <li className="ml-10 text-lg uppercase hover:bg-[#5651e5] hover:text-white rounded-md p-2">
-                Contact
+                Contacto
               </li>
             </Link>
           </ul>
@@ -103,7 +103,7 @@ export default function Navbar() {
        {renderThemeChanger()}
        </div>
         <div className="mt-2">
-       <button className="mr-4">Download CV</button>
+       <button className="mr-4">Descargar CV</button>
         </div>
         </div>
         
@@ -155,16 +155,16 @@ export default function Navbar() {
                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Home</li>
               </Link>
               <Link href="/#about">
-                <li onClick={()=>setNav(false)} className="py-4 text-sm">About</li>
+                <li onClick={()=>setNav(false)} className="py-4 text-sm">Sobre mi</li>
               </Link>
               <Link href="/#skills">
                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Skills</li>
               </Link>
               <Link href="/#projects">
-                <li onClick={()=>setNav(false)} className="py-4 text-sm">Projects</li>
+                <li onClick={()=>setNav(false)} className="py-4 text-sm">Proyectos</li>
               </Link>
               <Link href="/#contact">
-                <li onClick={()=>setNav(false)} className="py-4 text-sm">Contact</li>
+                <li onClick={()=>setNav(false)} className="py-4 text-sm">Contacto</li>
               </Link>
             </ul>
             <div className="pt-12">
