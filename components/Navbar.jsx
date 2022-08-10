@@ -11,6 +11,7 @@ import {
 
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import {BsFillSunFill,BsFillMoonFill } from 'react-icons/bs'
+import Rocket from "./Lottie/Rocket";
 
 
 export default function Navbar() {
@@ -129,12 +130,7 @@ export default function Navbar() {
 
              <div>
               </div> 
-              <Image
-                src="/../public/assets/victory-sign.png"
-                alt="/"
-                width="150"
-                height="150"
-              />
+             <Rocket/>
 
               <div
                 onClick={handleNav}
