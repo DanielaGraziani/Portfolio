@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
+import Swal from 'sweetalert2'
 import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -22,6 +23,13 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Mensaje enviado con éxito',
+            showConfirmButton: false,
+            timer: 1500
+          })
         },
         (error) => {
           console.log(error.text);
