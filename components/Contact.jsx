@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
-import Swal from 'sweetalert2/src/sweetalert2.js'
+import Swal from 'sweetalert2/dist/sweetalert2.js'
 import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
