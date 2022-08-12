@@ -93,8 +93,8 @@ export default function Navbar() {
           </ul>
 
           {/* SideMenu mobile */}
-          <div onClick={handleNav} className="md:hidden dark:bg-gray-900 dark:text-gray-100">
-            <AiOutlineMenu size={25} />
+          <div onClick={handleNav} className="md:hidden">
+            <AiOutlineMenu size={40} className='mt-3 ml-2' />
           </div>
         </div>
 
