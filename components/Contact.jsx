@@ -49,20 +49,24 @@ export default function Contact() {
                 <p className="uppercase pt-2"></p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
+                    <a href="https://www.linkedin.com/in/danielagraziani/" target="_blank" rel="noreferrer">
                     <FaLinkedinIn />
+                    </a>
                   </div>
 
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
+                  <a href="https://github.com/DanielaGraziani/" target="_blank" rel="noreferrer">
                     <FaGithub />
+                    </a>
                   </div>
 
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                     <AiOutlineMail />
                   </div>
 
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
+                  {/* <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                     <AiOutlineWhatsApp />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

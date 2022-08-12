@@ -123,12 +123,12 @@ export default function Navbar() {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed right-[-100%]  top-0 p-10 ease-in duration-700"
+              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 dark:bg-gray-900 dark:text-gray-100"
+              : "fixed right-[-100%]  top-0 p-10 ease-in duration-700 dark:bg-gray-900 dark:text-gray-100"
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full items-center justify-between ">
 
              <div>
               </div> 
@@ -136,7 +136,7 @@ export default function Navbar() {
 
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer "
+                className="mb-32 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer "
               >
                 <AiOutlineClose />
               </div>
@@ -171,20 +171,24 @@ export default function Navbar() {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%] sm:mt-12 mb-20">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaLinkedinIn />
+                <a href="https://www.linkedin.com/in/danielagraziani/" target="_blank" rel="noreferrer">
+                    <FaLinkedinIn />
+                    </a>
                 </div>
 
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaGithub />
+                <a href="https://github.com/DanielaGraziani/" target="_blank" rel="noreferrer">
+                    <FaGithub />
+                    </a>
                 </div>
 
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                   <AiOutlineMail />
                 </div>
 
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
+                {/* <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                   <AiOutlineWhatsApp />
-                </div>
+                </div> */}
 
               </div>
             </div>
