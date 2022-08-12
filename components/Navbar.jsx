@@ -104,7 +104,9 @@ export default function Navbar() {
        {renderThemeChanger()}
        </div>
         <div className="mt-2">
+        <a href="assets/Daniela-Diaz-Graziani-CV-FS.pdf" rel="noreferrer" download="Daniela-Diaz-Graziani-CV-FS.pdf">
        <button className="mr-4">Descargar CV</button>
+        </a>
         </div>
         </div>
         
