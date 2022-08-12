@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -22,6 +23,16 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          toast('Mensaje enviado con éxito', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light"
+            });
         },
         (error) => {
           console.log(error.text);
@@ -50,7 +61,7 @@ export default function Contact() {
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                     <a href="https://www.linkedin.com/in/danielagraziani/" target="_blank" rel="noreferrer">
-                    <FaLinkedinIn />
+                    <FaLinkedinIn /> 
                     </a>
                   </div>
 
@@ -80,7 +91,7 @@ export default function Contact() {
                     <label className="uppercase text-sm py-2">Nombre</label>
                     <input
                       name="name"
-                      className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
+                      className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                       type="text"
                     />
                   </div>
@@ -89,7 +100,7 @@ export default function Contact() {
                     <label className="uppercase text-sm py-2">Teléfono</label>
                     <input
                       name="phone"
-                      className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
+                      className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                       type="text"
                     />
                   </div>
@@ -98,7 +109,7 @@ export default function Contact() {
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
                     name="mail"
-                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                     type="email"
                   />
                 </div>
@@ -107,7 +118,7 @@ export default function Contact() {
                   <label className="uppercase text-sm py-2">Asunto</label>
                   <input
                     name="subject"
-                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                     type="text"
                   />
                 </div>
@@ -115,7 +126,7 @@ export default function Contact() {
                   <label className="uppercase text-sm py-2">Mensaje</label>
                   <textarea
                     name="message"
-                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                     rows="3"
                   ></textarea>
                 </div>
