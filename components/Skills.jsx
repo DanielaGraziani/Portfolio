@@ -15,7 +15,7 @@ export default function Skills() {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1040px] mx-auto flex flex-col justify-center h-full">
-        <h2 className="uppercase tracking-widest mb-12">Skills</h2>
+        <h2 className="uppercase tracking-widest mb-12 px-4 md:px-0">Skills</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
 
           <div className="p-6 rounded-xl md:hover:scale-150 ease-in duration-300">

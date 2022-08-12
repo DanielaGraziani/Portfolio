@@ -76,7 +76,7 @@ export default function Contact() {
                     <label className="uppercase text-sm py-2">Nombre</label>
                     <input
                       name="name"
-                      className="border-2 rounded-lg p-3 border-gray-300"
+                      className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
                       type="text"
                     />
                   </div>
@@ -85,7 +85,7 @@ export default function Contact() {
                     <label className="uppercase text-sm py-2">Teléfono</label>
                     <input
                       name="phone"
-                      className="border-2 rounded-lg p-3 border-gray-300"
+                      className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
                       type="text"
                     />
                   </div>
@@ -94,7 +94,7 @@ export default function Contact() {
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
                     name="mail"
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
                     type="email"
                   />
                 </div>
@@ -103,7 +103,7 @@ export default function Contact() {
                   <label className="uppercase text-sm py-2">Asunto</label>
                   <input
                     name="subject"
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
                     type="text"
                   />
                 </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                   <label className="uppercase text-sm py-2">Mensaje</label>
                   <textarea
                     name="message"
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300"
                     rows="3"
                   ></textarea>
                 </div>
@@ -125,7 +125,7 @@ export default function Contact() {
         <div className="flex justify-center">
           <Link href="/">
             <div className="mt-16 rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer animate-bounce">
-              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+              <HiOutlineChevronDoubleUp className="text-[#5651e5] dark:text-gray-300" size={30} />
             </div>
           </Link>
         </div>

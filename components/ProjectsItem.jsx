@@ -21,7 +21,7 @@ export default function ProjectsItem({
           {title}
         </h3>
 
-        <p className="mt-6 font-medium text-white">Tecnologías: {technologies}</p>
+        <p className="mt-3 md:mt-6 md:font-medium text-white">Tecnologías: {technologies}</p>
       
        <p className="hidden md:block mt-4 md:mt-9 text-justify font-medium text-white">Descripción: {description}</p>  
 

@@ -7,7 +7,7 @@ export default function About() {
     <div id="about" className="mt-32 w-full md:h-screen md:mt-0 p-2 flex items-center py-16">
       <div className="max-w-[1040px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 text-justify">
-          <h2 className="uppercase tracking-widest">Sobre mi</h2>
+          <h2 className="uppercase tracking-widest px-4 md:px-0">Sobre mi</h2>
           <p className="py-4 px-4 md:px-0">
           Hace un par de años me topé con un curso de HTML y CSS el cual sin imaginármelo, me abriría las puertas a un mundo increíble. Lo que comenzó como una simple curiosidad se convirtió en amor por la programación.
           </p>
