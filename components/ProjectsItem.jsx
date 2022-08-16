@@ -16,7 +16,7 @@ export default function ProjectsItem({
         src={backgroundImg}
         alt="/"
       />
-      <div className="md:mt-4 hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+      <div className="md:mt-1 hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl text-white tracking-wider text-center font-serif">
           {title}
         </h3>
@@ -27,7 +27,7 @@ export default function ProjectsItem({
 
        <div className="flex ml-4 md:mt-3 md:space-x-20 md:items-center md:justify-center">
        <a href={projectUrl} target="_blank" rel="noreferrer">
-          <button className="px-6 py-2 mt-4 mr-8 cursor-pointer">Project</button>
+          <button className="px-6 py-1 mt-4 mr-8 cursor-pointer">Project</button>
         </a>
 
         <a href={projectRepo} target="_blank" rel="noreferrer">
