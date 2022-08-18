@@ -27,7 +27,7 @@ export default function ProjectsItem({
 
        <div className="flex ml-4 md:mt-3 md:space-x-20 md:items-center md:justify-center">
        <a href={projectUrl} target="_blank" rel="noreferrer">
-          <button className="px-6 py-1 mt-4 mr-8 cursor-pointer">Project</button>
+          <button className="px-7 py-2 mt-4 mr-12 cursor-pointer">Project</button>
         </a>
 
         <a href={projectRepo} target="_blank" rel="noreferrer">
