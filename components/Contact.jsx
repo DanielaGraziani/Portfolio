@@ -93,6 +93,7 @@ export default function Contact() {
                       name="name"
                       className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                       type="text"
+                      required
                     />
                   </div>
 
@@ -111,6 +112,7 @@ export default function Contact() {
                     name="mail"
                     className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                     type="email"
+                    required
                   />
                 </div>
 
@@ -128,6 +130,7 @@ export default function Contact() {
                     name="message"
                     className="border-2 rounded-lg p-3 border-gray-300 dark:bg-gray-300 dark:text-gray-900"
                     rows="3"
+                    required
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
