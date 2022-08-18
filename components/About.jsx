@@ -4,7 +4,7 @@ import AboutLottie from "./Lottie/AboutLottie";
 
 export default function About() {
   return (
-    <div id="about" className="mt-[120px] w-full md:h-auto md:mt-0 p-2 flex items-center py-16">
+    <div id="about" className="mt-26 w-full md:h-auto md:mt-0 p-2 flex items-center py-16">
       <div className="max-w-[1040px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 text-justify">
           <h2 className="uppercase tracking-widest px-4 md:px-0">Sobre mi</h2>
